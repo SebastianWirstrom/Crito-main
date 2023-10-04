@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="sv-se">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script defer src="https://kit.fontawesome.com/41c8b474e2.js" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<link rel="stylesheet" href="/CSS/style.css">
+<title>Crito - Contact us</title>
+</head>
+<body>
+
+    <!-- Header section -->
+    <header>
+        <div class="container">
+            <a href="index.html"><img src="images/Logo.svg" alt="crito logotype"></a>
+            <button class="menu-bars"><i class="fa-solid fa-bars-staggered"></i></button>
+            <div class="menu">
+                <div class="top-menu">
+                    <div class="contact-information">
+                        <div class="content-box">
+                            <i class="fa-regular fa-phone-volume"></i>
+                            +46 (8) 121 470 50
+                        </div>
+                        <div class="content-box">
+                            <i class="fa-regular fa-envelope"></i>
+                            info@crito.com
+                        </div>
+                        <div class="content-box last">
+                            <i class="fa-regular fa-location-dot"></i>
+                            Sveavägen 31, 111 34 STOCKHOLM
+                        </div>
+                    </div>
+                    <div class="social-media">
+                        <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="main-menu">
+                    <nav>
+                        <a href="index.html">Home</a>
+                        <a href="services.html">Services</a>
+                        <a href="news.html">News</a>
+                        <a class="active" href="contacts.html">Contact</a>
+                    </nav>
+                    <a class="btn-yellow btn-login" href="login.html">Login <i class="fa-regular fa-arrow-up-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Contacts showcase section -->
+    <section class="contacts-showcase-main">
+        <div class="container">
+            <div class="contacts-background-lines">
+                <img src="images/contacts-showcase-lines.svg" alt="">
+            </div>
+            <div class="contacts-showcase">
+                <div class="showcase-link">
+                    <a href="index.html">Home</a>
+                    <a class="active" href="contacts.html">Contact</a>
+                </div>
+                <h2>Let's Connect</h2>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-information">
+                <div class="contact-information-box">
+                    <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+                    <div class="contact-information-box-text">
+                        <h3>Visit us</h3>
+                        <p>Sveavägen 31</p>
+                        <p>111 34 STOCKHOLM</p>
+                    </div>
+                </div>
+                <div class="contact-information-box">
+                    <i class="fa-solid fa-phone" style="color: #ffffff;"></i>
+                    <div class="contact-information-box-text">
+                        <h3>Call us</h3>
+                        <p>+46 (8) 121 470 50</p>
+                        <p>+46 (8) 121 470 51</p>
+                    </div>
+                </div>
+                <div class="contact-information-box">
+                    <i class="fa-regular fa-envelope" style="color: #ffffff;"></i>
+                    <div class="contact-information-box-text">
+                        <h3>Email us</h3>
+                        <p>info@crito.com</p>
+                        <p>support@crito.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-main">
+                <div class="contact-form">
+                    <div class="section-title">
+                        <h2>Leave us a message for any information.</h2>
+                    </div>
+                    <form id="contact-form" method="post"></form>
+                        <div class="form-row">
+                            <label class="form-label" for="name"></label>
+                            <input class="form-input" type="text" id="name" name="name" title="name" placeholder="Name*" tabindex="1">
+                        </div>
+                        <div class="form-row">
+                            <label class="form-label" for="email"></label>
+                            <input class="form-input" type="email" id="email" name="email" title="Epostadress" placeholder="Email*" tabindex="2">
+                        </div>
+                        <div class="form-row">
+                            <label class="form-label" for="biography"></label>
+                            <textarea class="form-input" id="biography" name="biography" placeholder="Your Message*" tabindex="3"></textarea>
+                        </div>
+                    </form>
+                    <div class="contact-button">
+                        <a class="btn-yellow" href="contacts.html" tabindex="4" >Send Message <i class="fa-regular fa-arrow-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <!-- Google map section -->
+    <section class="map-section">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10254.574501407536!2d18.048817006617274!3d59.33687179806805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d6799554e87%3A0x6562d2c842903003!2sSveav%C3%A4gen%2031%2C%20111%2034%20Stockholm!5e0!3m2!1ssv!2sse!4v1696252581681!5m2!1ssv!2sse" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+        <div class="container">
+            <img class="background-lines" src="images/footer-background-lines.svg" alt="">
+            <div class="footer-content">
+                <img src="images/Logo-footer.svg" alt="Crito logo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat obcaecati voluptas voluptates! Voluptates laborum nam ratione minus necessitatibus, iure praesentium.   </p>
+            </div>
+            <div class="footer-content">
+                <h3>Company</h3>
+                <a href="#">About</a>
+                <a href="#">Features</a>
+                <a href="#">Works</a>
+                <a href="#">Career</a>     
+            </div>
+            <div class="footer-content">
+                <h3>Help</h3>
+                <a href="#">Customer Support</a>
+                <a href="#">Delivery Detail</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Privacy Policy</a>    
+            </div>
+            <div class="footer-content">
+                <h3>Resources</h3>                
+                <a href="#">Free eBooks</a>
+                <a href="#">Development Tutorial</a>
+                <a href="#">How to - Blog</a>
+                <a href="#">Youtube Playlist</a>
+            </div>
+            <div class="footer-content">
+                <h3>Link</h3>  
+                <a href="#">Free eBooks</a>
+                <a href="#">Development Tutorial</a>
+                <a href="#">How to - Blog</a>
+                <a href="#">Youtube Playlist</a>
+            </div>         
+        </div>
+       
+            <div class="footer-bottom">
+                <p>&copy 2023 Crito - Consulting Company Inc. All Rights Reserved.</p>
+                <div class="social-media">
+                    <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div> 
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src="scripts/script.js"></script>
+</body>
+</html>
