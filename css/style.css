@@ -489,6 +489,7 @@ footer .footer-bottom .social-media {
   height: 140px;
   width: 280px;
   padding-top: 15px;
+  box-shadow: -10px 10px 100px 5px #a8a8a8;
 }
 .about .container .picture-section .blue-box .blue-box-text {
   display: flex;
